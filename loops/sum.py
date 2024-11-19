@@ -1,12 +1,7 @@
-while(True):
-    x = int(input("Number #1 "))
-    y = int(input("Number #2 "))
+sum = int(input("Which number's sum do you want to know? "))
+x = 0
 
-    print(x + y)
+for i in range(0, sum + 1):
+    x += i
 
-    z = input("Another calculation? [Y/N]")
-
-    if(z[0] == "y" or z[0] == "Y"):
-        pass
-    else:
-        break
+print("Sum of ", sum, "is:", x)
