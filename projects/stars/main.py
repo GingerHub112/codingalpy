@@ -6,7 +6,8 @@ times = 1
 for i in range(1, rows + 1):
     subtract = abs(i - rows)
     for j in range(0, subtract):
-        star_template = star_template + "* "
         star_template = star_template + "  "
+    for k in range(subtract, rows):
+        star_template = star_template + "* "
     print(star_template)
     star_template = ""
