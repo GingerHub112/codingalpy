@@ -18,3 +18,11 @@ four = int(input("Mark of Student 4 (from 0 to 100)"))
 five = int(input("Mark of Student 5 (from 0 to 100)"))
 
 print(fun2(one, two, three, four, five))
+
+def fun3(stringy, age, grade):
+    return f"Hello, I'm {stringy}, and I'm {age} years old. I also am in {grade}st/nd/rd/th grade."
+
+a = input("Name please ")
+b = int(input("Age please "))
+c = int(input("Grade please "))
+print(fun3(a, b, c))
