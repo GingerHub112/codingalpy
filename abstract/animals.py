@@ -14,3 +14,7 @@ class Snake(Animal):
 class Dog(Animal):
     def move(self):
         print("I can fly!")
+
+class Lion(Animal):
+    def move(self):
+        print("I can pounce!")
